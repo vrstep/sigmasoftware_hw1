@@ -13,24 +13,19 @@ html {
 .wrapper {
   display: grid;
   grid-template-rows: auto 1fr auto;
-  min-height: 100dvh;
   min-height: 100vh;
-  max-width: 1170px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 16px;
-  padding-right: 16px;
 }
 
 header {
   display: flex;
   flex-direction: column;
-  padding: 22px;
 }
 
 .navigation {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
 }
 
 ul li {
@@ -41,4 +36,22 @@ ul li {
 
 a {
   text-decoration: none;
+}
+
+.header-main {
+  display: flex;
+  flex-direction: column;
+  background-image: url(img/bg.png);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 200px 165px;
+  gap: 30px;
+  border: 2px solid black;
+}
+
+.headline-btn {
+  width: 225px;
+  height: 60px;
+  padding: 20px 50px;
 }
