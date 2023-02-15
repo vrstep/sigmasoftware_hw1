@@ -23,9 +23,9 @@ header {
 
 .navigation {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  padding: 20px 180px;
 }
 
 ul li {
@@ -38,16 +38,23 @@ a {
   text-decoration: none;
 }
 
+.green-btn {
+  background-color: #01996d;
+  padding: 13px 50px;
+  color: #ffffff;
+  border-radius: 4px;
+  border: none;
+}
+
 .header-main {
   display: flex;
   flex-direction: column;
   background-image: url(img/bg.png);
-  background-attachment: fixed;
   background-repeat: no-repeat;
+  height: 100vh;
   background-size: cover;
-  padding: 200px 165px;
+  padding: 160px 200px;
   gap: 30px;
-  border: 2px solid black;
 }
 
 .headline-btn {
