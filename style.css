@@ -15,4 +15,30 @@ html {
   grid-template-rows: auto 1fr auto;
   min-height: 100dvh;
   min-height: 100vh;
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  padding: 22px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul li {
+  display: inline;
+  list-style-type: none;
+  margin-right: 36px;
+}
+
+a {
+  text-decoration: none;
 }
