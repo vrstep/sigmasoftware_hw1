@@ -25,17 +25,33 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 180px;
+  padding: 20px 230px;
 }
 
 ul li {
   display: inline;
   list-style-type: none;
-  margin-right: 36px;
+  margin-right: 50px;
 }
 
 a {
   text-decoration: none;
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+  color: #292929;
+}
+
+.nav-btn > * {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+}
+
+.sign-in {
+  border: none;
+  background-color: #ffffff;
+  margin-right: 20px;
 }
 
 .green-btn {
@@ -53,7 +69,7 @@ a {
   background-repeat: no-repeat;
   height: 100vh;
   background-size: cover;
-  padding: 160px 200px;
+  padding: 160px 230px;
   gap: 30px;
 }
 
@@ -61,4 +77,11 @@ a {
   width: 225px;
   height: 60px;
   padding: 20px 50px;
+}
+
+h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 700;
+  color: #01996d;
+  font-size: 45px;
 }
