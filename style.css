@@ -94,3 +94,18 @@ h1 {
   font-weight: 400;
   font-size: 16px;
 }
+
+.section-1 {
+  display: flex;
+  flex-direction: column;
+  padding: 160px 230px;
+}
+
+.mini-heading {
+  margin-bottom: 13px;
+}
+
+.how-it-works-info {
+  display: flex;
+  gap: 136px;
+}
