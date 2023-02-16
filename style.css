@@ -113,6 +113,7 @@ h2 {
   font-weight: 700;
   font-size: 50px;
   color: #01996d;
+  margin-bottom: 25px;
 }
 
 .how-it-works-info {
@@ -201,6 +202,7 @@ h2 {
 
 .section-3 {
   display: flex;
+  justify-content: space-between;
   padding: 160px 230px;
   height: 100vh;
 }
@@ -265,4 +267,11 @@ h2 {
 .mikayla-big-img {
   position: absolute;
   z-index: 1;
+}
+
+.our-product-info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 580px;
 }
