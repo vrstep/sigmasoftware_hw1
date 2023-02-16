@@ -285,3 +285,25 @@ h2 {
   gap: 20px;
   width: 580px;
 }
+
+footer {
+  background-color: #245852;
+  padding: 160px 230px;
+}
+
+footer li {
+  list-style-type: none;
+  margin-bottom: 60px;
+}
+
+footer span {
+  font-family: Lato;
+  font-size: 40px;
+  font-weight: 900;
+  color: #ffffff;
+}
+
+.footer-list a {
+  color: #ffffff;
+  font-size: 25px;
+}
