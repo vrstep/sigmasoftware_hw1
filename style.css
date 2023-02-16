@@ -28,7 +28,7 @@ header {
   padding: 20px 230px;
 }
 
-ul li {
+.nav-list li {
   display: inline;
   list-style-type: none;
   margin-right: 50px;
@@ -171,7 +171,7 @@ h2 {
   display: flex;
   background-color: #245852;
   padding: 160px 230px;
-  height: 90vh;
+  height: 100vh;
   gap: 70px;
 }
 
@@ -197,4 +197,61 @@ h2 {
   z-index: 2;
   margin-left: 400px;
   margin-top: 200px;
+}
+
+.section-3 {
+  display: flex;
+  padding: 160px 230px;
+}
+
+.mikayla-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 295px;
+  height: 290px;
+  background-color: #ffffff;
+  filter: drop-shadow(0px 3.62249px 18.1125px rgba(165, 165, 165, 0.25));
+}
+
+.mikayla-card-part1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.mikayla-card-part2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+
+.line hr {
+  height: 1px;
+  border: 0;
+  background: black;
+  margin-bottom: 6px;
+}
+
+.mikayla-portrait {
+  display: block;
+  width: 57px;
+  height: 57px;
+}
+
+.mikayla-card-h2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.mikayla-list li {
+  font-family: Lato;
+  font-weight: 400;
+  font-size: 12px;
+  margin-bottom: 16px;
 }
