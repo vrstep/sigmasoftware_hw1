@@ -108,4 +108,25 @@ h1 {
 .how-it-works-info {
   display: flex;
   gap: 136px;
+  margin-bottom: 200px;
+}
+
+.card-num {
+  position: absolute;
+  z-index: 1;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 400;
+  font-size: 150px;
+  color: #01996d33;
+}
+
+#overlay {
+  position: absolute;
+  font-size: 20px;
+  z-index: 2;
+  font-family: Georgia;
+  font-weight: 700;
+  font-size: 30px;
+  margin-left: 65px;
+  margin-top: 105px;
 }
