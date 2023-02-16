@@ -118,7 +118,7 @@ h2 {
 .how-it-works-info {
   display: flex;
   gap: 136px;
-  margin-bottom: 200px;
+  margin-bottom: 170px;
 }
 
 .cards {
@@ -157,4 +157,12 @@ h2 {
   font-size: 30px;
   margin-left: 65px;
   margin-top: 105px;
+}
+
+.card-02 {
+  margin-top: 210px;
+}
+
+.card-03 {
+  margin-top: 90px;
 }
