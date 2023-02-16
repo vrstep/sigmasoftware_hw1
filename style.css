@@ -102,7 +102,17 @@ h1 {
 }
 
 .mini-heading {
+  font-family: Lato;
+  font-weight: 600;
+  font-size: 24px;
   margin-bottom: 13px;
+}
+
+h2 {
+  font-family: Georgia;
+  font-weight: 700;
+  font-size: 50px;
+  color: #01996d;
 }
 
 .how-it-works-info {
