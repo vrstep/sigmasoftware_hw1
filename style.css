@@ -287,18 +287,26 @@ h2 {
 }
 
 footer {
+  display: flex;
+  justify-content: space-between;
   background-color: #245852;
-  padding: 160px 230px;
+  padding: 120px 230px;
+}
+
+.alivio-links {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
 }
 
 footer li {
   list-style-type: none;
-  margin-bottom: 60px;
+  margin-bottom: 50px;
 }
 
 footer span {
   font-family: Lato;
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 900;
   color: #ffffff;
 }
@@ -306,4 +314,29 @@ footer span {
 .footer-list a {
   color: #ffffff;
   font-size: 25px;
+}
+
+.social-links {
+  align-self: flex-end;
+}
+
+.social-links li {
+  display: inline;
+}
+
+.store-links {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  align-self: flex-end;
+}
+
+.store-links span {
+  font-size: 20px;
+  text-align: center;
+}
+
+.store-links li {
+  display: inline;
+  margin-right: 16px;
 }
